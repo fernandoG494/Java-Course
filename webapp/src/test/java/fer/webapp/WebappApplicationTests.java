@@ -1,11 +1,13 @@
-package fer.web1;
+package fer.webapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Web1ApplicationTests {
-    @Test
-    void contextLoads() {
-    }
+class WebappApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
 }

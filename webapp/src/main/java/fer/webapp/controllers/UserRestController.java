@@ -1,4 +1,4 @@
-package fer.web1.controllers;
+package fer.webapp.controllers;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
