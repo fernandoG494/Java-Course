@@ -9,7 +9,7 @@ import java.util.Map;
 @RestController
 public class UserRestController {
   @GetMapping("/details2")
-  public Map<String, Object> details () {
+  public Map<String, Object> details() {
     Map<String, Object> body = new HashMap<>();
 
     body.put("title", "Hola mundo Spring");
@@ -17,5 +17,5 @@ public class UserRestController {
     body.put("lastname", "Garcia");
 
     return body;
-  };
+  }
 }
